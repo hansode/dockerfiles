@@ -5,3 +5,5 @@ build:
 
 run:
 	sudo docker run -t centos6-to-rhel7beta
+
+test: build run
